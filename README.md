@@ -1,6 +1,6 @@
 # Analisis_Publisher
 
-![Delicis](https://user-images.githubusercontent.com/110134592/255226550-63792e05-006c-481b-9054-1027ad56a020.jpg)
+![Delicis](https://github.com/Bearodriguez2022/Analisis_Publisher/issues/1#issue-1891380964)
 
 Este proyecto surge luego de hacer una pasantía en una empresa que se dedicaba a optimizar las subastas programáticas de sus clientes. La subasta de anuncios se utiliza para seleccionar los anuncios que aparecerán en los sitios de un editor y determinar cuánto ganan con esos anuncios. Todos los anuncios pagan diferentes cantidades de dinero, dependiendo de factores como cuánto ha pujado un anunciante por el anuncio. El anuncio que gana es el que el usuario ve en el sitio web o la aplicación del editor.
 
