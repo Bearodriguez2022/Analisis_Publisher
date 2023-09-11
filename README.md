@@ -1,7 +1,7 @@
 # Analisis_Publisher
 
 
-![AD Manager](https://github.com/Bearodriguez2022/Analisis_Publisher/issues/1#issue-1891380964)
+![AD Manager](https://user-images.githubusercontent.com/110134592/267164313-1a9fab99-8cd9-4a10-b65e-8d8a9d23ca3f.jpg)
 
 Este proyecto surge luego de hacer una pasantía en una empresa que se dedicaba a optimizar las subastas programáticas de sus clientes. La subasta de anuncios se utiliza para seleccionar los anuncios que aparecerán en los sitios de un editor y determinar cuánto ganan con esos anuncios. Todos los anuncios pagan diferentes cantidades de dinero, dependiendo de factores como cuánto ha pujado un anunciante por el anuncio. El anuncio que gana es el que el usuario ve en el sitio web o la aplicación del editor.
 
