@@ -1,4 +1,7 @@
 # Analisis_Publisher
+
+![Delicis](https://user-images.githubusercontent.com/110134592/255226550-63792e05-006c-481b-9054-1027ad56a020.jpg)
+
 Este proyecto surge luego de hacer una pasantía en una empresa que se dedicaba a optimizar las subastas programáticas de sus clientes. La subasta de anuncios se utiliza para seleccionar los anuncios que aparecerán en los sitios de un editor y determinar cuánto ganan con esos anuncios. Todos los anuncios pagan diferentes cantidades de dinero, dependiendo de factores como cuánto ha pujado un anunciante por el anuncio. El anuncio que gana es el que el usuario ve en el sitio web o la aplicación del editor.
 
 Ad Manager utiliza el siguiente modelo de subasta para la subasta abierta y la subasta privada:
@@ -65,3 +68,10 @@ PASOS A SEGUIR:
  debajo grafico de staked colum chat por bid range (son de a 0,10 USD, comenznado en 0 y termina en el valor
  máximo que hayan ofrecido por el inventario). Dentro de cada rango hay una columna apilada con el valor de
  Average Bid CPM USD del inventario general vs el inventario del publisher.
+
+[La documentación para realizar el trabajo](https://developers.google.com/ad-manager/api/reporting?hl=es-419#creating_the_reportjob)
+
+
+[Columnas y Dimensiones](https://developers.google.com/ad-manager/api/reference/v202305/ReportService.ReportQuery#columns)
+
+
