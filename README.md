@@ -51,25 +51,12 @@ Sujeto a los términos que rigen su uso de la subasta de Google, a los vendedore
 
 PASOS A SEGUIR:
    * Extracción de data de la API de la empresa, de Ad manager, con credenciales.Esto lo realice con python.Primero había que tener los NETWORK de cada empresa, una vez obtenida extraer los publisher o report service de cada uno de los clientes.
-   *  Transformación de datos, también larealicé con python.
+   *  Transformación de datos, también la realicé con python.
    *  Realicé dashboard en Looker Studio. Pautas del mismo:  El usuario puede filtrar dimensiones por: Fechas; Tipo de inventario (Video; In App, GPT; AMP; Null); Dispositivo;
- Geo y si quiere puede seleccionar: “comparar contra mi inventario”.
- Primero se muestran valores netos (teniendo en cuenta los filtros aplicados a las dimensiones) sobre la data generla:
- U$D eCPM; %Fill Rate; U$D Request RPM; Bid vs Request rate Vs (debajo); U$D Average Bid eCPM valores netos
- en colores (verde si es superior, negro si es neutro, Rojo si es inferior) de las mismas métricas pero solo con el
- inventario del publishers y al costado de cada uno la diferencia % entre si.
- Debajo un gráfico de barras por día con una métrica que el usuario puede seleccionar entre:U$D eCPM; % Fill Rate;
- U$D Request RPM; #Bid/Request rate; U$D Average bid CPM VS la misma métrica por día del inventario del
- publisher.
- Debajo un gráfico de filled area donde el color del país esta en degradé de tono más oscuro a más claro para
- mostrar la relación entre los países bajo la misma métrica que el usuario seleccionó entre: U$D eCPM; % Fill Rate;
- U$D Request RPM; #Bid/Request rate; U$D Average bid CPM y la misma métrica con respecto al inventario del
- publisher.. En texto dentro de cada país se coloca el valores general y del inventario del publisher para esa métrica
- en ese país.
- Debajo un gráficos de donut chat que tiene las Bid Rejection Reason distribuidas proporcionalmente.
- debajo grafico de staked colum chat por bid range (son de a 0,10 USD, comenznado en 0 y termina en el valor
- máximo que hayan ofrecido por el inventario). Dentro de cada rango hay una columna apilada con el valor de
- Average Bid CPM USD del inventario general vs el inventario del publisher.
+       Primero se muestran valores netos sobre la data generla, luego comparación de cada empresa con respecto a la General, se puede seleccionar periodo a analisar, empresa, y país para ver el comportamiento en los distintos escenarios.
+   También se muestra ganancias según tipo de inventario. Además analisé como se distribuyen las ganancias (RENUEVE) pudiendo filtrarse por empresa y país locual se muestra en un mapa para que sea mas ilustrativo, por último analisis de BIDS (ofertas) que realizó cada oferta, cuales fueron razones por las que fueron exitosas esas ofertas y en que paises se realiza mayor cantidad de ofertas. 
+ 
+ 
 
 [La documentación para realizar el trabajo](https://developers.google.com/ad-manager/api/reporting?hl=es-419#creating_the_reportjob)
 
