@@ -64,6 +64,8 @@ PASOS A SEGUIR:
 [Columnas y Dimensiones](https://developers.google.com/ad-manager/api/reference/v202305/ReportService.ReportQuery#columns)
 
 Mi Informe:
-*  https://lookerstudio.google.com/reporting/6cf217fa-ac26-4dca-8c85-20cc8567b079
+````
+  https://lookerstudio.google.com/reporting/6cf217fa-ac26-4dca-8c85-20cc8567b079
 
-  [Mi Informe:(**https://lookerstudio.google.com/reporting/6cf217fa-ac26-4dca-8c85-20cc8567b079**)]
+
+ 
